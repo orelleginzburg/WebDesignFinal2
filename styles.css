@@ -1,0 +1,127 @@
+header {
+  display: inline;
+}
+button {
+  height: 30px;
+}
+.left {
+  float: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  float: right;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+nav {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+.kitchen {
+  width: 20%;
+  margin: 5px;
+}
+footer {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+a {
+  font-size: 20px;
+  color: black;
+  margin: 5%;
+}
+.container {
+  display: grid;
+  float: center;
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+.articles {
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-collapse: separate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 100%;
+  background-color: white;
+}
+.row1 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.row2 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#fruit {
+  grid-column: 1;
+  grid-row: 1;
+}
+#protein {
+  grid-column: 2;
+  grid-row: 1;
+}
+#dairy {
+  grid-column: 3;
+  grid-row: 1;
+}
+#grains {
+  grid-column: 1;
+  grid-row: 2;
+}
+#spices {
+  grid-column: 2;
+  grid-row: 2;
+}
+#storeBought {
+  grid-column: 3;
+  grid-row: 2;
+}
+.list {
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+}
+p {
+  font-size: 23px;
+}
+figcaption {
+  font-size: 18px;
+}
+.but {
+  margin-left: 25%;
+  text-align: center;
+  width: 46%;
+  height: 10%;
+  font-size: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+body {
+  margin: 10px 75px;
+  background-color: rgb(247, 247, 247);
+}
+.srch {
+  width: 600px;
+  height: 28px;
+}
